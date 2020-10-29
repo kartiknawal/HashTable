@@ -51,7 +51,7 @@ namespace HashTable
                         frequency++;
                 }
             }
-            Console.WriteLine("\"{0}\" occurs {1} times in given sentence.", value, frequency);
+            Console.WriteLine("\"{0}\" occurs {1} times in the given sentence.", value, frequency);
         }
     }
     public struct KeyValue<k, v>
