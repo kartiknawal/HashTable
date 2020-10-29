@@ -15,7 +15,6 @@ namespace HashTable
             hash.Add("4", "to");
             hash.Add("5", "be");
             hash.GetFrequency("be");
-            Console.ReadKey();
             MyMapNode<string, string> hash2 = new MyMapNode<string, string>(19);
             hash2.Add("0", "Paranoid");
             hash2.Add("1", "are");
@@ -37,6 +36,8 @@ namespace HashTable
             hash2.Add("17", "avoidable");
             hash2.Add("18", "situations");
             hash2.GetFrequency("paranoid");
+            hash2.Remove("17");
+            hash2.GetFrequency("avoidable");
             Console.ReadKey();
         }
     }
